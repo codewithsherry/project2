@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.top-box {
+    height: 85px;
+    width: 100%;
+    background-color: brown;
+    position: relative;
+}
+
+.A {
+    border-radius: 5px;
+}
+
+.a {
+    height: 50px;
+    width: 80px;
+    background-color: bisque;
+    position: absolute;
+    right: 190px;
+    top: 25px;
+}
+
+.b {
+    height: 50px;
+    width: 80px;
+    background-color: bisque;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+
+.c {
+    height: 50px;
+    width: 80px;
+    background-color: bisque;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.d {
+    height: 50px;
+    width: 80px;
+    background-color: bisque;
+    position: absolute;
+    right: 280px;
+    top: 25px;
+}
+
+.left {
+    height: 35px;
+    width: 50%;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 20px
+}
+
+.right {
+    height: 35px;
+    width: 50%;
+    background-color: rgb(63, 90, 7);
+    position: absolute;
+    right: 0;
+    top: 85px;
+}
+
+.inner-box {
+    background-color: rgb(24, 227, 160);
+    height: 20px;
+    width: 200px;
+    margin: 10px 0 0 280px;
+}
+
+.center-box {
+    height: 250px;
+    width: 100%;
+    background-color: burlywood;
+    position: relative;
+}
+
+.black {
+    height: 165px;
+    width: 90%;
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.blue {
+    background-color: rgb(39, 87, 234);
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    position: absolute;
+    top: 165px;
+}
+
+.yellow1 {
+    height: 30px;
+    width: 80px;
+    background-color: darkorange;
+    position: absolute;
+    border-radius: 3px;
+    left: 20px;
+    bottom: 15px;
+}
+
+.yellow2 {
+    height: 30px;
+    width: 80px;
+    background-color: darkorange;
+    position: absolute;
+    border-radius: 3px;
+    left: 120px;
+    bottom: 15px;
+}
+
+.white1 {
+    background-color: white;
+    height: 155px;
+    width: 150px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    border: 2px solid darkgrey;
+}
+
+.white2 {
+    background-color: white;
+    height: 175px;
+    width: 150px;
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    border: 2px solid darkgrey;
+}
+
+.pink {
+    height: 226px;
+    width: 50%;
+    background-color: rgb(238, 175, 153);
+    border:2px solid gray;
+    border-radius: 3px
+}
+
+.seagreen {
+    
+    height: 90px;
+    width: 385px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 1px;
+    left: 50px;
+    border: 1px solid gray;
+    border-radius: 4px
+}
+
+.title { 
+    height: 40px;
+    width: 45%;
+    background-color: darkslategrey;
+    color: white;
+    position: absolute;
+    bottom: 155px;
+    right: 25px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.new-box {
+    height: 140px;
+    width: 45%;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    border: 2px solid gray;
+    border-radius: 3px
+}
